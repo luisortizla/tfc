@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">TFCurier</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">TapFood</string>
+    <string name="userlogin">Usuario</string>
+    <string name="passlogin">Contraseña</string>
+    <string name="loginboton">Ingresar</string>
+    <string name="registerboton">Registrarse</string>
+    <string name="pfr">Registro Curier</string>
+    <string name="curiername">Nombre y Apellido</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="email">Email</string>
+    <string name="contra">Contraseña</string>
+    <string name="celular">Num. Celular</string>
+    <string name="vehiculo">Vehiculo</string>
+    <string name="descripcionvehiculo">Describe tu vehiculo</string>
+    <string name="Banco">Banco</string>
+    <string name="cuentadeposito">Cuenta de deposito</string>
+    <string name="next">Finalizar registro</string>
+    <string-array name="Banco">
+        <item>American Express</item>
+        <item>Afirme</item>
+        <item>Banco Azteca</item>
+        <item>Banco del Bajio</item>
+        <item>Banco Inbursa</item>
+        <item>Banco Invex</item>
+        <item>Banco Multiva</item>
+        <item>CityBanamex</item>
+        <item>Banco Santander</item>
+        <item>BanCoppel</item>
+        <item>Banorte</item>
+        <item>BBVA</item>
+        <item>HSBC</item>
+        <item>Scotiabank</item>
+    </string-array>
+    <string name="vistausuario">Vista al usuario</string>
+    <string name="servicios">Servicio</string>
+    <string name="historial">Historial de servicio</string>
+    <string name="servicioss">Servicios</string>
+    <string name="info">Info</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="serviciosdisponibles">Servicios Disponibles</string>
+    <string name="serviciosencurso">Servicios En Curso</string>
+    <string name="navegacion">Navegacion</string>
+    <string name="finalizarservicio">Finalizar servicio</string>
+    <string name="recolectado">Pedido recolectado</string>
+</resources>
