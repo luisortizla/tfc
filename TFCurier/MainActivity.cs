@@ -13,7 +13,7 @@ using TFCurier.Activities;
 
 namespace TFCurier
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true, ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = false, ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
     public class MainActivity : AppCompatActivity
     {
         private MySqlConnection conn;
@@ -63,8 +63,7 @@ namespace TFCurier
                 if (usr.HasRows)
                 {
                     
-                    Intent pis = new Intent(this, typeof(HomePage));
-                    pis.PutExtra(HomePage.USER , user.Text);
+                    
 
                     string jee = user.ToString();
 
@@ -75,7 +74,7 @@ namespace TFCurier
 
                     edit.Apply();
 
-                    StartActivity(pis);
+                    StartActivity(typeof(HomePage));
 
                     Toast.MakeText(this, "Has ingresado!", ToastLength.Long).Show();
                     usr.Close();

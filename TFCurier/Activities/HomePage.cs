@@ -20,7 +20,7 @@ namespace TFCurier.Activities
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = false, ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
     public class HomePage : AppCompatActivity
     {
-        internal static readonly string USER;
+        
         TextView curiername;
         Button feedback, servicios, historial;
         private MySqlConnection conn;

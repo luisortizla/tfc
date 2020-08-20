@@ -137,8 +137,8 @@ namespace TFCurier.Activities
             navegacion.Click+=delegate {
 
                 Intent intent = new Intent(this, typeof(MapaNavegacionPage));
-                intent.PutExtra(MapaNavegacionPage.LATUSR, latt);
-                intent.PutExtra(MapaNavegacionPage.LONGUSR, longg);
+                //intent.PutExtra(MapaNavegacionPage.LATUSR, latt);
+                //intent.PutExtra(MapaNavegacionPage.LONGUSR, longg);
                 StartActivity(intent);
 
 	};
